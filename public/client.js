@@ -63,5 +63,5 @@ socket.on('message', (msg)=> {
 
 
 function scrollTobottom() {
-    area.scrollTop = area.scroll
+    area.scrollTop = area.scrollHeight
 }
